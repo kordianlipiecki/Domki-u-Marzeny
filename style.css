@@ -1,0 +1,57 @@
+@import 'https://fonts.googleapis.com/css?family=Amatic+SC:400,700';
+
+body {
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  padding-top: 230px;
+  font-weight: bold;
+}
+
+h1 {
+  margin: 40px 0 10px;
+  font-size: 65px;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.8);
+  color: #fff ;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+i.material-icons {
+  transform: translateY(4px);
+}
+
+.panel {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 200px;
+  background-image:url("Wood.jpg");
+  background-size: 100% 500px;
+  background-position: center;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.8);
+}
+
+nav a {
+  margin: 0 50px;
+  font-weight: bold;
+  font-size: 35px;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+
+section.kontakt {
+  margin: 0 auto;
+  font-size: 25px;
+}
+
+section.kontakt .info {
+  margin-bottom: 10px;
+}
+
+section.kontakt iframe {
+  margin: 50px 0 0 -50px;
+}
